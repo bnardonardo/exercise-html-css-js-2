@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/css.css" />
+		<title>Document</title>
+		<script type="text/javascript" src="js/areas.js"></script>
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');</style>
+	</head>
+	<body>
+		<header>Cálculo de Áreas</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Área do Triângulo</a></li>
+				<li><a href="cubo.html">Área do Cubo</a></li>
+				<li><a href="circulo.html">Área do Círculo</a></li>
+				<li><a href="cilindro.html">Área do Cilindro</a></li>
+			</ul>
+		</nav>
+		<div>
+			<h1>Área do Triângulo</h1>
+			<form name="forMedia">
+				<label> Base: <input type="number" name="base1" /> </label>metros.<br />
+				<label>Altura: <input type="number" name="altura1" /> </label>metros.<br />
+				<img src="imagens/triangulo.jpg" alt="" />
+				<br />
+				<input type="button" value="Calcular" onclick="media()" />
+				<input type="reset" value="Limpar" />
+			</form>
+
+			<br />
+
+			<h1 id="resultado"></h1>
+		</div>
+		<footer>Bernardo Souza &copy;</footer>
+	</body>
+</html>
